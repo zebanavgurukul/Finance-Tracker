@@ -63,6 +63,7 @@ Create a .env file in the project root with the following variables:
   - **"email"**: "johndoe@example.com",
   - **"password"**: "hashed_password",
   - **"createdAt"**: "2025-02-14T12:00:00Z"
+
 **}**
 
 **Transaction Collection (transactions table)**
@@ -73,4 +74,5 @@ Create a .env file in the project root with the following variables:
   - **"amount"**: 500,
   - **"category"**: "Food",
   - **"date"**: "2025-02-14T14:30:00Z"
+   
 **}**
