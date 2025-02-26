@@ -62,7 +62,7 @@ Create a .env file in the project root with the following variables:
   - **"name"**: "John Doe",
   - **"email"**: "johndoe@example.com",
   - **"password"**: "hashed_password",
-  - **"createdAt"**: "2025-02-14T12:00:00Z"
+  - **"createdAt"**: "2025-02-26T12:00:00Z"
 
 **}**
 
@@ -73,6 +73,6 @@ Create a .env file in the project root with the following variables:
   - **"type"**: "expense",
   - **"amount"**: 500,
   - **"category"**: "Food",
-  - **"date"**: "2025-02-14T14:30:00Z"
+  - **"date"**: "2025-02-26T14:30:00Z"
    
 **}**
