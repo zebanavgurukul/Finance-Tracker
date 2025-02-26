@@ -1,0 +1,72 @@
+body {
+    background-image: url('images/background.jpg');
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 60%;
+    transform: translateX(-50%);
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f596a6; 
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #6A9F99;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.auth-options button,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #ff758c;
+    color: white;
+}
+
+button:hover {
+    background: #ff3e6c;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.report-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#reportContent {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
