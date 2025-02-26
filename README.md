@@ -25,20 +25,20 @@ Create a .env file in the project root with the following variables:
 - **PORT**=****
 
 ## Project Structure
-**backend/**
-│── **config/**         # Database connection setup
-│── **controllers/**    # API logic (authentication, transactions, reports)
-│── **middlewares/**    # JWT authorization middleware
-│── **models/**        # Mongoose models (Users, Transactions)
-│── **routes/**        # API route definitions
-│── **.env**           # Environment variables (PORT, MONGO_URI, JWT_SECRET)
-│── **server.js**      # Main application server setup
-│
-**frontend/**
-│── **image/**        # Stores images and other static assets
-│── **index.html**     # Main HTML file
-│── **styles.css**     # CSS styling
-│── **script.js**      # JavaScript logic
+- **backend/**
+- │── **config/**         # Database connection setup
+- │── **controllers/**    # API logic (authentication, transactions, reports)
+- │── **middlewares/**    # JWT authorization middleware
+- │── **models/**        # Mongoose models (Users, Transactions)
+- │── **routes/**        # API route definitions
+- │── **.env**           # Environment variables (PORT, MONGO_URI, JWT_SECRET)
+- │── **server.js**      # Main application server setup
+- │
+- **frontend/**
+- │── **image/**        # Stores images and other static assets
+- │── **index.html**     # Main HTML file
+- │── **styles.css**     # CSS styling
+- │── **script.js**      # JavaScript logic
 
 ## API Endpoints
 **Auth Routes**
@@ -57,20 +57,20 @@ Create a .env file in the project root with the following variables:
 ## Database Schema
 **User Collection (users table)**
 
-**{
+**{**
   - **"_id"**: "12345",
   - **"name"**: "John Doe",
   - **"email"**: "johndoe@example.com",
   - **"password"**: "hashed_password",
   - **"createdAt"**: "2025-02-14T12:00:00Z"
-}**
+**}**
 
 **Transaction Collection (transactions table)**
 
-**{
+**{**
   - **"userId"**: "12345",
   - **"type"**: "expense",
   - **"amount"**: 500,
   - **"category"**: "Food",
   - **"date"**: "2025-02-14T14:30:00Z"
-}**
+**}**
