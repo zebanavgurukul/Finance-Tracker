@@ -56,19 +56,21 @@ Create a .env file in the project root with the following variables:
 
 ## Database Schema
 **User Collection (users table)**
-{
+
+**{
   "_id": "12345",
   "name": "John Doe",
   "email": "johndoe@example.com",
   "password": "hashed_password",
   "createdAt": "2025-02-14T12:00:00Z"
-}
+}**
 
 **Transaction Collection (transactions table)**
-{
+
+**{
   "userId": "12345",
   "type": "expense",
   "amount": 500,
   "category": "Food",
   "date": "2025-02-14T14:30:00Z"
-}
+}**
