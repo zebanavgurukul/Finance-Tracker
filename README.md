@@ -26,19 +26,19 @@ Create a .env file in the project root with the following variables:
 
 ## Project Structure
 - **backend/**
-- │── **config/**         # Database connection setup
-- │── **controllers/**    # API logic (authentication, transactions, reports)
-- │── **middlewares/**    # JWT authorization middleware
-- │── **models/**        # Mongoose models (Users, Transactions)
-- │── **routes/**        # API route definitions
-- │── **.env**           # Environment variables (PORT, MONGO_URI, JWT_SECRET)
-- │── **server.js**      # Main application server setup
+- │── **config/**         #Database connection setup
+- │── **controllers/**    #API logic (authentication, transactions, reports)
+- │── **middlewares/**    #JWT authorization middleware
+- │── **models/**        #Mongoose models (Users, Transactions)
+- │── **routes/**        #API route definitions
+- │── **.env**           #Environment variables (PORT, MONGO_URI, JWT_SECRET)
+- │── **server.js**      #Main application server setup
 - │
 - **frontend/**
-- │── **image/**        # Stores images and other static assets
-- │── **index.html**     # Main HTML file
-- │── **styles.css**     # CSS styling
-- │── **script.js**      # JavaScript logic
+- │── **image/**        #Stores images and other static assets
+- │── **index.html**     #Main HTML file
+- │── **styles.css**     #CSS styling
+- │── **script.js**      #JavaScript logic
 
 ## API Endpoints
 **Auth Routes**
