@@ -14,6 +14,10 @@ app.use(cors());
 // Connect to database
 connectDB();
 
+app.get("/", (req, res) => {
+  res.send("🎉 Welcome to the Finance Tracker API!");
+});
+
 app.use('/auth', authRoutes);
 app.use('/transactions', transactionRoutes);
 app.use('/reports', reportRoutes);
